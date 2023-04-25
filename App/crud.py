@@ -94,4 +94,4 @@ def gerador_response(status, nome_do_conteudo, conteudo, mensagem): #Função pa
     body[nome_do_conteudo] = conteudo
     body["mensagem"] = mensagem        
 
-    return Response(json.dumps(body), status = status, mimetype = "application/json")
+    return Response(json.dumps(body), status = status, mimetype = "application/json") # type: ignore
