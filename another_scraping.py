@@ -4,7 +4,7 @@ import requests #conexão com o site
 from bs4 import BeautifulSoup #scraping
 
 # URL da página que queremos fazer scraping
-url = "hhttps://www.pichau.com.br/hardware/ssd"
+url = "https://www.youtube.com/results?search_query=web+scraping+python+de+uma+base+de+dados"
 
 # Conexão: Enviar uma solicitação GET para a URL
 response = requests.get(url)
